@@ -1,5 +1,5 @@
 :root{
-    --white-color: black;
+    --white-color: #232532;
     --black-color: white;
     /* --white-color: white;
     --black-color: black; */
@@ -17,10 +17,18 @@ body{
 
 h1{
     text-align: center;
-    margin: 1rem auto;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
     color: var(--black-color);
-    background-color: var(--white-color);
+    background-color: #ffc900;
+    font-family: monospace;
 }
+
+h6{
+  font-family: monospace;
+  font-size: 14px;
+}
+
 .form{
     display: flex;
     flex-direction: row;
@@ -65,7 +73,8 @@ h1{
 video{
     width: 100%;
     /* margin: 0 auto; */
-    box-shadow: 0 0 20px 12px rgb(51 51 179 / 53%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px 12px rgb(23 74 146 / 40%);
 }
 
 .dash-video-player {

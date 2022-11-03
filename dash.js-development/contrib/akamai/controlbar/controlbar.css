@@ -94,7 +94,8 @@
 
 .menu,
 .video-controller {
-    background-color: black;
+    background-color: #004279;
+    border-radius: 20px;
 }
 
 .menu-item-unselected,

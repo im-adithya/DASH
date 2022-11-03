@@ -19,7 +19,7 @@ function init(url) {
 	const controlbar = new ControlBar(player)
 	controlbar.initialize()
 
-	// setInterval(console.log(player.getPlaybackRate()), 5000)
+	setInterval(console.log(player.getPlaybackRate()), 1000)
 }
 
 init(url1)
